@@ -3,9 +3,9 @@ import React from "react";
 const OurMission = () => {
   return (
     <section className="padding sm:py-20 py-12">
-      <h6 className="small-header">Our Mission</h6>
+      <h6 className="small-title text-center">Our Mission</h6>
       <div className="w-full flex justify-center items-center flex-col">
-        <h5 className="max-w-[550px] text-center text-3xl pt-8 pb-4 leading-normal">
+        <h5 className="big-title text-center text-3xl">
           Empowering African Producers & Bridging Trust Gaps in Global Trade
         </h5>
         <p className="max-w-[750px] text-center text-slate-600">

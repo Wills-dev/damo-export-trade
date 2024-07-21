@@ -1,0 +1,73 @@
+.contact-ctn {
+  padding: 80px 0;
+}
+
+.addressCtn {
+  margin-bottom: 30px;
+}
+
+.addressCtn div {
+  margin: 15px 0;
+}
+
+.addressCtn h5 {
+  line-height: 1.8;
+  color: #073b4c;
+  margin-bottom: 2px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.addressCtn p {
+  line-height: 1.25;
+  font-weight: 800;
+  font-size: 18px;
+  margin: 0;
+}
+
+.contactFormCtn {
+  border-radius: 6px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.contactFormCtn input,
+.contactFormCtn textarea {
+  transition-duration: 300ms;
+  background-color: transparent;
+  border-right: none;
+  border-top: none;
+  border-left: none;
+  border-radius: 0;
+  border-bottom: 1px solid #4d507d;
+  font-size: 15px;
+  text-transform: capitalize;
+  color: #9293bc;
+  padding-left: 0;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.contactFormCtn input:focus,
+.contactFormCtn textarea:focus {
+  box-shadow: none;
+  border-bottom: 1px solid #996633;
+  outline: none;
+}
+
+.contactFormCtn button {
+  transition: all 0.3s ease-out 0s;
+  border-radius: 20px;
+  background: #996633;
+  width: 180px;
+  outline: none;
+  border: none;
+  color: #fff;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.contactFormCtn button:hover {
+  background-color: #f7d23c;
+}
