@@ -9,11 +9,25 @@ body {
   color: #282828;
 }
 
+/* .bgg {
+  background: linear-gradient(
+    to top,
+    rgb(255, 255, 255, 1),
+    rgba(252, 188, 159, 0.2)
+  );
+} */
+
 @layer utilities {
   .padding {
-    @apply sm:p-10 p-6;
+    @apply sm:p-14 p-6;
   }
-  .small-header {
-    @apply text-primary-color text-center uppercase text-sm font-medium;
+  .small-title {
+    @apply text-primary-color  uppercase text-sm font-medium;
+  }
+  .big-title {
+    @apply max-w-[550px] pt-8 pb-4 leading-normal;
+  }
+  .btnn {
+    @apply bg-primary-color px-3 py-2 rounded-md text-white;
   }
 }

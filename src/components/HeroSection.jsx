@@ -1,8 +1,57 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 const HeroSection = () => {
+  const [currentSlide, setCurrentSlide] = useState(0);
+
+  useEffect(() => {
+    const slideInterval = setInterval(() => {
+      setCurrentSlide((prevSlide) => (prevSlide + 1) % homeImageSlider.length);
+    }, 5000);
+
+    return () => clearInterval(slideInterval);
+  }, []);
+
+  const homeImageSlider = [
+    {
+      src: "/assets/images/agro-industry-3158634.jpg",
+    },
+    {
+      src: "/assets/images/cashew-251393_1280.jpg",
+    },
+    {
+      src: "/assets/images/cocoa-beans-499970_1920.jpg",
+    },
+  ];
+
   return (
-    <div className=" h-[90vh] w-full rounded-b-[5%] hero-pattern bg-center bg-no-repeat bg-cover bg-[url('/assets/images/agro-industry-3158634.jpg')] inset-0">
+    <section className=" h-[90vh] w-full  inset-0 relative">
+      {homeImageSlider.map((image, index) => (
+        <div
+          key={index}
+          className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${
+            index === currentSlide ? "opacity-100" : "opacity-0"
+          }`}
+        >
+          <img
+            src={image.src}
+            alt={`Slide ${index + 1}`}
+            className="w-full h-full object-cover rounded-b-[5%]"
+          />
+        </div>
+      ))}
+      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
+        {homeImageSlider.map((_, index) => (
+          <span
+            key={index}
+            onClick={() => setCurrentSlide(index)}
+            className={`w-4 h-4 rounded-full border-1 cursor-pointer ${
+              index === currentSlide
+                ? "bg-[#FFcc00] border-[#FFcc00]"
+                : "border-gray-300"
+            }`}
+          />
+        ))}
+      </div>
       <div className="w-full h-full flex items-end padding">
         <div className="rounded-3xl backdrop-blur p-8 max-w-[550px] text-white">
           <h3 className="text-3xl font-medium">
@@ -24,13 +73,11 @@ const HeroSection = () => {
               placeholder="Enter your email "
               className="flex-1 text-gray-900 outline-none border-none"
             />{" "}
-            <button className="bg-primary-color px-3 py-2 rounded-md">
-              Submit
-            </button>
+            <button className="btnn">Submit</button>
           </form>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

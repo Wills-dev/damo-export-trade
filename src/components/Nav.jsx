@@ -2,9 +2,11 @@ import React from "react";
 
 const Nav = () => {
   return (
-    <div className="fixed w-full top-6 right-0 left-0">
-      <div className="bg-white mx-6 p-4 rounded-lg flex items-center justify-between shadow-md">
-        <h1 className="font-semibold">Damo Export Trade Africa</h1>
+    <div className="fixed w-full top-6 right-0 left-0 z-10">
+      <div className="bg-white sm:mx-6 px-4 py-6 rounded-lg flex items-center justify-between shadow-md">
+        <h1 className="font-semibold">
+          <img src="/assets/images/logoo.png" alt="" className="w-32 " />
+        </h1>
         <div className="flex items-center gap-2 uppercase text-sm">
           <p>Menu</p>
           <svg
