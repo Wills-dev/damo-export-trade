@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const OurPurpose = () => {
   return (
-    <section className="padding flex items-center py-12">
+    <section className="padding flex items-center max-lg:flex-col py-12">
       <div className="flex-1">
         <h6 className="small-title ">Our Purpose</h6>
         <h5 className="big-title text-4xl">
