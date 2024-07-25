@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import LowerFooter from "./LowerFooter";
 
 const Footer = () => {
   return (
@@ -30,17 +31,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-between text-sm py-6 bg-[#996633] padding text-white">
-        <p>© 2024 Damo Export Trade Africa. All rights reserved.</p>
-        <div className="flex items-center gap-4">
-          <Link to="/" className="underline">
-            Privacy policy
-          </Link>{" "}
-          <Link to="/" className="underline">
-            Terms of use
-          </Link>
-        </div>
-      </div>
+      <LowerFooter />
     </div>
   );
 };

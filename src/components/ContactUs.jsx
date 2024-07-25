@@ -10,28 +10,31 @@ const ContactUs = () => {
           <h1 className="md:text-4xl text-2xl font-semibold">CONTACT US</h1>
         </div>
         <div className="contactWrapperForm">
-          <div className="flex">
-            <div className="w-2/5">
+          <div className="flex max-md:flex-col">
+            <div className="md:w-2/5 w-full">
               <div className="addressCtn">
                 <div>
                   <h5>Address:</h5>
-                  <p>184 Main Collins Street</p>
+                  <p className="pr-3">
+                    5, MosudiJokoenumi, Salvation Estate, Lamgbasa Ajah, Lagos,
+                    Nigeria
+                  </p>
                 </div>
                 <div>
                   <h5>Phone:</h5>
-                  <p>(226) 446 9371</p>
+                  <p>(234) 905 471 5337</p>
                 </div>
                 <div>
                   <h5>Email:</h5>
-                  <p>confer@gmail.com</p>
+                  <p>info.damoexporttrade@gmail.com</p>
                 </div>
                 <div>
                   <h5>Website:</h5>
-                  <p>www.confer.com</p>
+                  <p>www.damoexporttradeafrica.com</p>
                 </div>
               </div>
             </div>
-            <div className="w-3/5">
+            <div className="md:w-3/5 w-full">
               <form className="contactFormCtn bg-green-50">
                 <div className="flex max-md:flex-col w-full gap-6">
                   <div className="flex-1">
