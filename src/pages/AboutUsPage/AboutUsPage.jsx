@@ -1,9 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
+
 import { motion } from "framer-motion";
+
 import Nav from "../../components/Nav";
 import LowerFooter from "../../components/LowerFooter";
 
 const AboutUsPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <div className="container mx-auto padding space-y-12 relative ">
@@ -129,7 +136,7 @@ const AboutUsPage = () => {
 
         {/* CEO Section */}
         <motion.section
-          className="flex flex-col md:flex-row items-center bg-white p-8 rounded-lg shadow-lg"
+          className="flex flex-col md:flex-row items-center bg-white p-8 rounded shadow"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
@@ -160,7 +167,25 @@ const AboutUsPage = () => {
             </p>
           </div>
         </motion.section>
+        <div className="border-gray-400 padding flex items-center gap-10 border-y-1">
+          <div className="">
+            <h4 className="text-2xl font-medium">
+              Need more details? Contact us
+            </h4>
+            <p className=" font-light">
+              We are here to assist. Contact us by phone, email or via our
+              social media channels.
+            </p>
+          </div>
+          <Link
+            to="/contact-us"
+            className="bg-[#996633] hover:bg-yellow-800 transition-all text-white w-48 h-12 flex items-center justify-center"
+          >
+            Contact us
+          </Link>
+        </div>
       </div>
+
       <LowerFooter />
     </>
   );

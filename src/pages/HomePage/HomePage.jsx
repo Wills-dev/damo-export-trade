@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect } from "react";
+
 import HeroSection from "../../components/HeroSection";
 import Nav from "../../components/Nav";
 import OurMission from "../../components/OurMission";
@@ -10,6 +11,10 @@ import OurProducts from "../../components/OurProducts";
 import MarketPlace from "../../components/MarketPlace";
 
 const HomePage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="relative w-full min-h-screen bgg">
       <Nav />
