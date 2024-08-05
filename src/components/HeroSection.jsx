@@ -69,12 +69,12 @@ const HeroSection = () => {
           </p>
           <form
             action=""
-            className="flex items-center amx-w-full w-full bg-white rounded-lg py-2 px-3 text-sm"
+            className="flex items-center max-w-full w-full bg-white rounded-lg py-2 px-3 text-sm max-sm:flex-col max-sm:items-start "
           >
             <input
               type="search"
               placeholder="Enter your email "
-              className="flex-1 text-gray-900 outline-none border-none"
+              className="flex-1 text-gray-900 outline-none border-none max-sm:py-2"
             />{" "}
             <button className="btnn">Submit</button>
           </form>
