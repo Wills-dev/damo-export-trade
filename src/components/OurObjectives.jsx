@@ -11,7 +11,7 @@ const OurObjectives = () => {
         />
       </div>
       <div className="flex-1 w-full flex gap-8 flex-wrap ">
-        <div className="max-w-[46%]">
+        <div className="max-w-[46%]  max-sm:max-w-full">
           <img
             src="/assets/icons/globe-line-icon.svg"
             alt="icon"
@@ -23,7 +23,7 @@ const OurObjectives = () => {
             market access and maximizing potential.
           </p>
         </div>
-        <div className="max-w-[46%]">
+        <div className="max-w-[46%]  max-sm:max-w-full">
           <img
             src="/assets/icons/save-plant-icon.svg"
             alt="icon"
@@ -35,7 +35,7 @@ const OurObjectives = () => {
             initiatives and robust support systems.
           </p>
         </div>
-        <div className="max-w-[46%]">
+        <div className="max-w-[46%]  max-sm:max-w-full">
           <img
             src="/assets/icons/announcement-icon.svg"
             alt="icon"
@@ -47,7 +47,7 @@ const OurObjectives = () => {
             enhance productivity and environmental health.
           </p>
         </div>
-        <div className="max-w-[46%]">
+        <div className="max-w-[46%]  max-sm:max-w-full">
           <img
             src="/assets/icons/trade-icon.svg"
             alt="icon"
@@ -61,7 +61,7 @@ const OurObjectives = () => {
             standards and clear communication.
           </p>
         </div>
-        <div className="max-w-[46%]">
+        <div className="max-w-[46%] max-sm:max-w-full">
           <img
             src="/assets/icons/boy-services-support-icon.svg"
             alt="icon"

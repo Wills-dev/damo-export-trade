@@ -4,7 +4,7 @@ const OurMobileApp = () => {
   return (
     <div className="">
       {" "}
-      <div className="bg-white rounded-lg  flex flex-col md:flex-row md:items-center md:justify-between padding">
+      <div className="bg-white rounded-lg  flex flex-col-reverse md:flex-row md:items-center md:justify-between padding">
         <div className="w-full lg:w-1/2 mb-4 md:mb-0 md:mr-6">
           <img
             src="/assets/images/Mobile app mokup.png
