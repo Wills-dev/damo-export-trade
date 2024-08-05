@@ -9,6 +9,8 @@ import Footer from "../../components/Footer";
 import ContactUs from "../../components/ContactUs";
 import OurProducts from "../../components/OurProducts";
 import MarketPlace from "../../components/MarketPlace";
+import OurMobileApp from "../../components/OurMobileApp";
+import OurTrainings from "../../components/OurTrainings";
 
 const HomePage = () => {
   useEffect(() => {
@@ -22,8 +24,10 @@ const HomePage = () => {
       <OurMission />
       <OurObjectives />
       <OurPurpose />
+      <OurTrainings />
       <OurProducts />
       <MarketPlace />
+      <OurMobileApp />
       <ContactUs />
       <Footer />
     </div>

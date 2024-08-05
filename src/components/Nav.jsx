@@ -16,8 +16,8 @@ const Nav = () => {
       url: "/about-us",
     },
     {
-      title: "What We Do",
-      url: "/what-we-do",
+      title: "Our services",
+      url: "/our-services",
     },
     {
       title: "Our Marketplace",

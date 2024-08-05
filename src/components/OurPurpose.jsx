@@ -7,8 +7,8 @@ const OurPurpose = () => {
       <div className="flex-1">
         <h6 className="small-title ">Our Purpose</h6>
         <h5 className="big-title text-4xl">
-          Empowering African Producers & Bridging Trust Gaps in International
-          Trade
+          We foster global connections, empower local producers, ensure
+          sustainable practices while leveraging innovative technology.
         </h5>
       </div>
       <div className="flex-1">
@@ -18,13 +18,13 @@ const OurPurpose = () => {
           gaps that hinder local and international trade. We strive to redefine
           African exports by becoming a trusted leader in international trade,
           emphasizing reliability, local empowerment, and global connectivity.
-          Our commitment extends to enhancing market access for African agro
-          commodities, fostering trust and transparency in trade, promoting
-          sustainable and innovative agricultural practices, supporting local
-          community empowerment, and driving consistent growth and
-          profitability. Join us as we transform the landscape of African
-          exports, creating a thriving, interconnected global market that
-          benefits all stakeholders.
+          Our commitment extends to enhancing market access for African
+          producers, fostering trust and transparency in trade, promoting
+          sustainable and innovative agricultural practices, leveraging
+          technology, supporting local community empowerment, and driving
+          consistent growth and profitability. Join us as we transform the
+          landscape of African exports, creating a thriving, interconnected
+          global market that benefits all stakeholders.
         </p>
         <Link to="/about-us">
           <button className="btnn my-4">More about us</button>

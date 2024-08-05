@@ -8,10 +8,10 @@ const MarketPlace = () => {
       <div className="bg-white rounded-lg  flex flex-col md:flex-row md:items-center md:justify-between padding">
         <div className="w-full lg:w-1/2 max-lg:pb-5">
           <h2 className="text-2xl font-bold text-[#996633] mb-4">
-            Introducing Our Marketplace
+            Introducing Our Online Marketplace
           </h2>
           <p className="text-gray-600 mb-4">
-            We are thrilled to announce the upcoming launch of our new
+            We are thrilled to announce the upcoming launch of our online
             marketplace, a dedicated platform to showcase and promote authentic
             African products. Our marketplace is designed to bridge the gap
             between African producers and global buyers, creating a seamless and
@@ -42,7 +42,7 @@ const MarketPlace = () => {
         </div>
         <div className="w-full lg:w-1/2 mb-4 md:mb-0 md:mr-6">
           <img
-            src="/public/assets/images/market-3239194_1920.jpg
+            src="/assets/images/Ecommerce mock up.png
             "
             alt="Marketplace Preview"
             className=" w-full h-auto"

@@ -5,7 +5,7 @@ const OurObjectives = () => {
     <div className="padding flex item-center sm:gap-14 gap-8">
       <div className="flex-1 w-full flex justify-center items-center max-lg:hidden">
         <img
-          src="/assets/images/food-8432816_1920.jpg"
+          src="/assets/images/WhatsApp Image 2024-04-13 at 08.53.28_48f5362d.jpg"
           alt="cashew"
           className="rounded-lg"
         />
