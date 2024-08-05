@@ -71,3 +71,9 @@
 .contactFormCtn button:hover {
   background-color: #f7d23c;
 }
+
+@media (max-width: 600px) {
+  .addressCtn p {
+    font-size: 14px;
+  }
+}
