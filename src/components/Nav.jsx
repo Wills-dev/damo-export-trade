@@ -41,7 +41,11 @@ const Nav = () => {
         <h1 className="font-semibold">
           <Link to="/">
             {" "}
-            <img src="/assets/images/logoo.png" alt="" className="w-32 " />
+            <img
+              src="/assets/images/logoo.png"
+              alt=""
+              className="sm:w-32 w-24"
+            />
           </Link>
         </h1>
         <div className="flex items-center gap-2 uppercase text-sm">
