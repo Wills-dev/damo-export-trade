@@ -14,21 +14,21 @@ const LowerFooter = () => {
         </a>
         <a href="http://" target="_blank" rel="noopener noreferrer">
           <img
-            src="/public/assets/icons/x-social-media-logo-icon.svg"
+            src="assets/icons/x-social-media-logo-icon.svg"
             alt=""
             className="w-6 h-6 object-contain"
           />
         </a>
         <a href="http://" target="_blank" rel="noopener noreferrer">
           <img
-            src="/public/assets/icons/linkedin-square-icon.svg"
+            src="assets/icons/linkedin-square-icon.svg"
             alt=""
             className="w-6 h-6 object-contain"
           />
         </a>
         <a href="http://" target="_blank" rel="noopener noreferrer">
           <img
-            src="/public/assets/icons/black-instagram-icon.svg"
+            src="assets/icons/black-instagram-icon.svg"
             alt=""
             className="w-6 h-6 object-contain"
           />

@@ -19,7 +19,7 @@ const HeroSection = () => {
       src: "/assets/images/cashew-251393_1280.jpg",
     },
     {
-      src: "/assets/images/cocoa-beans-499970_1920.jpg",
+      src: "/assets/images/Cashew field.jpg",
     },
   ];
 
@@ -58,6 +58,9 @@ const HeroSection = () => {
             Redefining African Exports: <br /> Trust, Reliability, and Global
             Connectivity
           </h3>
+          <h6 className="text-xl pt-6">
+            Your trusted agro-commodity supplier in and from Africa.
+          </h6>
           <p className="my-6 font-light">
             Join us in empowering African producers and connecting global
             buyers. We bridge the trust gaps that inhibit local and
