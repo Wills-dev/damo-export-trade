@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import LowerFooter from "./LowerFooter";
 
 const Footer = () => {
@@ -7,8 +6,8 @@ const Footer = () => {
     <div className="">
       <div className="padding bg-green-50">
         <div className="bg-center bg-no-repeat bg-cover bg-[url('/assets/images/agro-industry-3158634.jpg')] inset-0 rounded-3xl h-[60vh] py-2 my-6">
-          <div className="w-full h-full flex items-end padding">
-            <div className="rounded-3xl backdrop-blur p-8 max-w-[550px] text-white">
+          <div className="w-full h-full flex items-end padding px-2">
+            <div className="rounded-3xl backdrop-blur p-8 sm:max-w-[550px] max-w-full text-white max-sm:px-4">
               <h3 className="sm:text-3xl text-xl font-medium">
                 Redefining African Exports: <br /> Global Connectivity
               </h3>
@@ -18,7 +17,7 @@ const Footer = () => {
               </p>
               <form
                 action=""
-                className="flex items-center w-full bg-white rounded-lg py-2 px-3 text-sm"
+                className="flex items-center max-w-full w-full bg-white rounded-lg py-2 px-3 text-sm"
               >
                 <input
                   type="search"

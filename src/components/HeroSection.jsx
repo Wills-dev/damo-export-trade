@@ -53,15 +53,15 @@ const HeroSection = () => {
         ))}
       </div>
       <div className="w-full h-full flex items-end padding">
-        <div className="rounded-3xl backdrop-blur p-8 max-w-[550px] text-white">
-          <h3 className="text-3xl font-medium">
+        <div className="rounded-3xl backdrop-blur p-8 sm:max-w-[550px] max-w-full text-white max-sm:px-4">
+          <h3 className="sm:text-3xl text-xl  font-medium">
             Redefining African Exports: <br /> Trust, Reliability, and Global
             Connectivity
           </h3>
-          <h6 className="text-xl pt-6">
+          <h6 className="sm:text-xl pt-6">
             Your trusted agro-commodity supplier in and from Africa.
           </h6>
-          <p className="my-6 font-light">
+          <p className="my-6 font-light max-sm:text-sm">
             Join us in empowering African producers and connecting global
             buyers. We bridge the trust gaps that inhibit local and
             international trade, ensuring reliability and fostering local
@@ -69,7 +69,7 @@ const HeroSection = () => {
           </p>
           <form
             action=""
-            className="flex items-center w-full bg-white rounded-lg py-2 px-3 text-sm"
+            className="flex items-center amx-w-full w-full bg-white rounded-lg py-2 px-3 text-sm"
           >
             <input
               type="search"

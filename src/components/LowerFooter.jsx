@@ -34,7 +34,7 @@ const LowerFooter = () => {
           />
         </a>
       </div>
-      <div className="flex items-center justify-between text-sm  text-white">
+      <div className="flex sm:items-center justify-between text-sm  text-white max-sm:flex-col-reverse">
         <p>© 2024 Damo Export Trade Africa. All rights reserved.</p>
         <div className="flex items-center gap-4">
           <Link to="/" className="underline">
