@@ -5,7 +5,7 @@ const OurMobileApp = () => {
     <div className="">
       {" "}
       <div className="bg-white rounded-lg  flex flex-col-reverse md:flex-row md:items-center md:justify-between padding">
-        <div className="w-full lg:w-1/2 mb-4 md:mb-0 md:mr-6">
+        <div className="w-full lg:w-1/3 mb-4 md:mb-0 md:mr-6 ">
           <img
             src="/assets/images/Mobile app mokup.png
         "
@@ -13,7 +13,7 @@ const OurMobileApp = () => {
             className=" w-full h-auto"
           />
         </div>
-        <div className="w-full lg:w-1/2 max-lg:pb-5">
+        <div className="w-full lg:w-2/3 max-lg:pb-5">
           <h2 className="text-2xl font-bold text-[#996633] mb-4">
             Upcoming Mobile App Launch
           </h2>
