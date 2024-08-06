@@ -18,9 +18,7 @@ const OurTrainings = () => {
             Empowering Farmers Through Expert Training
           </h2>
           <p className="text-gray-600 mb-4">
-            We are committed to connecting African producers with global markets
-            and empowering them with the skills needed to thrive. Our
-            comprehensive training programs cover essential agricultural
+            Our comprehensive training programs cover essential agricultural
             practices, including selecting high-quality seeds, effective testing
             methods, and optimal growing techniques. These practical and
             accessible programs ensure farmers can achieve higher yields and

@@ -45,21 +45,23 @@ const AboutUsPage = () => {
             Damo Export Trade Africa
           </h1>
           <p className="text-left">
-            We empower African producers and connect them with global buyers. By
-            bridging the trust gaps that inhibit local and international trade,
-            we aim to foster a more inclusive and accessible market for all
-            stakeholders involved. Our commitment to this mission is rooted in
-            our belief in the vast potential of African agriculture and the
-            crucial role it plays in the global economy.
+            Damo Export Trade Africa (DETA) connects African producers with
+            global markets, facilitating intra-Africa and international trade
+            through innovative technology, empowering producers, and enhancing
+            production across the continent.
           </p>
           <p className=" text-left py-4">
-            We envision a future where African exports are redefined and our
-            company stands as a trusted leader in international trade. Our
-            vision emphasizes reliability, local empowerment, and global
-            connectivity. We are dedicated to ensuring that African producers
-            can compete on a global stage with confidence and integrity. By
-            fostering strong partnerships and building a robust network, we aim
-            to enhance the reputation of African products in the global market.
+            <span className="font-bold"> Our mission</span> is to revolutionize
+            the agricultural and manufacturing landscape in Africa by leveraging
+            technology and strategic partnerships. We aim to bridge the trust
+            gaps that inhibit local and international trade, ensuring a
+            seamless, inclusive, and sustainable market for African products.
+          </p>
+          <p className=" text-left py-4">
+            <span className="font-bold"> Our Vision</span> is to redefine
+            African exports by becoming a trusted leader in
+            African-international trade, emphasizing reliability, local
+            empowerment, and global connectivity.
           </p>
           <p className="text-left py-4">
             Our objectives are multifaceted and focused on driving substantial
@@ -84,6 +86,7 @@ const AboutUsPage = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
         >
+          <h4 className="text-3xl font-bold pb-16 text-center">Our Team</h4>
           <div className="flex flex-col md:flex-row items-center">
             <motion.img
               src="https://via.placeholder.com/200"
@@ -115,7 +118,17 @@ const AboutUsPage = () => {
             <div className="w-[200px]">
               <img src="" alt="" className="w-full h-[200px] object-cover" />
               <h6 className="pt-2">Joseph Mathias</h6>
+              <p className="font-bold">Tech Lead</p>
+            </div>
+            <div className="w-[200px]">
+              <img src="" alt="" className="w-full h-[200px] object-cover" />
+              <h6 className="pt-2">Joseph Mathias</h6>
               <p className="font-bold">Procurement Manager</p>
+            </div>
+            <div className="w-[200px]">
+              <img src="" alt="" className="w-full h-[200px] object-cover" />
+              <h6 className="pt-2">Joseph Mathias</h6>
+              <p className="font-bold">Legal</p>
             </div>
             <div className="w-[200px]">
               <img src="" alt="" className="w-full h-[200px] object-cover" />
@@ -131,7 +144,10 @@ const AboutUsPage = () => {
         </motion.section>
 
         <AnimatePresence>
-          <div className="flex justify-between flex-wrap py-16 max-sm:justify-center">
+          <h4 className="text-3xl font-bold pt-16 pb-2 text-center">
+            Our Partners
+          </h4>
+          <div className="flex justify-between flex-wrap pb-16 max-sm:justify-center">
             {partners.map((partner, index) => (
               <motion.div
                 variants={fadeIn("right", "spring", index * 0.5, 0.75)}

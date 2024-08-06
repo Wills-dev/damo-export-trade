@@ -22,9 +22,11 @@ const OurPurpose = () => {
           producers, fostering trust and transparency in trade, promoting
           sustainable and innovative agricultural practices, leveraging
           technology, supporting local community empowerment, and driving
-          consistent growth and profitability. Join us as we transform the
-          landscape of African exports, creating a thriving, interconnected
-          global market that benefits all stakeholders.
+          consistent growth and profitability.
+        </p>
+        <p className="text-slate-600 font-bold py-2">
+          Join us as we transform the landscape of African exports, creating a
+          thriving, interconnected global market that benefits all stakeholders.
         </p>
         <Link to="/about-us">
           <button className="btnn my-4">More about us</button>

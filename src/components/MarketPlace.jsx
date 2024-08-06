@@ -11,17 +11,12 @@ const MarketPlace = () => {
             Introducing Our Online Marketplace
           </h2>
           <p className="text-gray-600 mb-4">
-            We are thrilled to announce the upcoming launch of our online
-            marketplace, a dedicated platform to showcase and promote authentic
-            African products. Our marketplace is designed to bridge the gap
-            between African producers and global buyers, creating a seamless and
-            trustworthy environment for trade.
-          </p>
-          <p className="text-gray-600 mb-4">
-            The marketplace will offer a wide variety of products, from
-            artisanal crafts and textiles to organic agro-commodities and
-            innovative goods. Each product is carefully curated to ensure the
-            highest standards of quality and authenticity.
+            Our marketplace features high-quality African products, providing a
+            seamless and trustworthy trading environment for global buyers. We
+            offer a diverse range of artisanal crafts, organic agro-commodities,
+            minerals, furniture, cosmetics, entertainment, and professional
+            services. Each product is meticulously curated to ensure top quality
+            and authenticity.
           </p>
           <p className="text-gray-600 mb-4">
             We believe in the power of sustainable and ethical trade. Our
