@@ -7,7 +7,7 @@ const MarketPlace = () => {
       {" "}
       <div className="bg-white rounded-lg  flex flex-col md:flex-row md:items-center md:justify-between padding">
         <div className="w-full lg:w-1/2 max-lg:pb-5">
-          <h2 className="text-2xl font-bold text-[#996633] mb-4">
+          <h2 className="sm:text-2xl font-bold text-[#996633] text-lg mb-4 max-sm:text-center">
             Introducing Our Online Marketplace
           </h2>
           <p className="text-gray-600 mb-4">

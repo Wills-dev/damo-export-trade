@@ -89,9 +89,9 @@ const AboutUsPage = () => {
           <h4 className="text-3xl font-bold pb-16 text-center">Our Team</h4>
           <div className="flex flex-col md:flex-row items-center">
             <motion.img
-              src="https://via.placeholder.com/200"
+              src="/assets/images/WhatsApp Image 2024-01-24 at 10.24.34_1459d866.jpg"
               alt="CEO"
-              className="w-48 h-48 object-cover rounded-full mb-4 md:mb-0 md:mr-8 border-4 border-gray-300"
+              className="w-48 h-48 object-cover rounded-full mb-4 md:mb-0 md:mr-8"
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.3 }}
@@ -115,30 +115,50 @@ const AboutUsPage = () => {
             </div>
           </div>
           <div className="flex gap-4 justify-between flex-wrap py-16 max-sm:justify-center">
-            <div className="w-[200px]">
-              <img src="" alt="" className="w-full h-[200px] object-cover" />
-              <h6 className="pt-2">Joseph Mathias</h6>
-              <p className="font-bold">Tech Lead</p>
+            <div className="w-[150px]">
+              <img
+                src="/assets/images/empty-user.webp"
+                alt=""
+                className="w-full h-[150px] object-cover"
+              />
+              <h6 className="pt-2 text-sm">Victor Ejiogu</h6>
+              <p className="font-bold text-sm">Tech Lead</p>
             </div>
-            <div className="w-[200px]">
-              <img src="" alt="" className="w-full h-[200px] object-cover" />
-              <h6 className="pt-2">Joseph Mathias</h6>
-              <p className="font-bold">Procurement Manager</p>
+            <div className="w-[150px]">
+              <img
+                src="/assets/images/JOSEPH MATTHIAS.jpg"
+                alt=""
+                className="w-full h-[150px] object-cover"
+              />
+              <h6 className="pt-2 text-sm">Joseph Mathias</h6>
+              <p className="font-bold text-sm">Procurement Manager</p>
             </div>
-            <div className="w-[200px]">
-              <img src="" alt="" className="w-full h-[200px] object-cover" />
-              <h6 className="pt-2">Joseph Mathias</h6>
-              <p className="font-bold">Legal</p>
+            <div className="w-[150px]">
+              <img
+                src="/assets/images/empty-user.webp"
+                alt=""
+                className="w-full h-[150px] object-cover"
+              />
+              <h6 className="pt-2 text-sm">Joseph Mathias</h6>
+              <p className="font-bold text-sm">Legal</p>
             </div>
-            <div className="w-[200px]">
-              <img src="" alt="" className="w-full h-[200px] object-cover" />
-              <h6 className="pt-2">Chinedu Odunukwe</h6>
-              <p className="font-bold">Finance Manager</p>
+            <div className="w-[150px]">
+              <img
+                src="/assets/images/empty-user.webp"
+                alt=""
+                className="w-full h-[150px] object-cover"
+              />
+              <h6 className="pt-2 text-sm">Chinedu Odunukwe</h6>
+              <p className="font-bold text-sm">Finance Manager</p>
             </div>
-            <div className="w-[200px]">
-              <img src="" alt="" className="w-full h-[200px] object-cover" />
-              <h6 className="pt-2">Ayobamidele Mebude</h6>
-              <p className="font-bold">Programs Manager</p>
+            <div className="w-[150px]">
+              <img
+                src="/assets/images/Bam BAM.jpg"
+                alt=""
+                className="w-full h-[150px] object-cover"
+              />
+              <h6 className="pt-2 text-sm">Ayobamidele Mebude</h6>
+              <p className="font-bold text-sm">Programs Manager</p>
             </div>
           </div>
         </motion.section>
