@@ -5,8 +5,8 @@ const OurPurpose = () => {
   return (
     <section className="padding flex items-center max-lg:flex-col py-12">
       <div className="flex-1">
-        <h6 className="small-title ">Our Purpose</h6>
-        <h5 className="big-title sm:text-4xl text-2xl max-sm:text-center">
+        <h6 className="small-title max-sm:text-center">Our Purpose</h6>
+        <h5 className="big-title sm:text-4xl text-xl max-sm:text-center">
           We foster global connections, empower local producers, ensure
           sustainable practices while leveraging innovative technology.
         </h5>

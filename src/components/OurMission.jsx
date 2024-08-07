@@ -2,7 +2,7 @@ import React from "react";
 
 const OurMission = () => {
   return (
-    <section className="padding sm:py-20 py-12">
+    <section className="padding py-20 ">
       <h6 className="small-title text-center">Our Mission</h6>
       <div className="w-full flex justify-center items-center flex-col">
         <h5 className="big-title text-center text-3xl">

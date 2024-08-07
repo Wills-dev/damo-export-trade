@@ -54,6 +54,73 @@ const WhatWeDo = () => {
       >
         <h1 className="text-3xl font-bold mb-6 text-gray-800">Our Services</h1>
       </motion.div>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+        <div className="flex gap-3">
+          <img
+            src="/assets/images/WhatsApp Image 2024-04-13 at 08.53.28_48f5362d.jpg"
+            alt=""
+            className="w-44 h-44 max-sm:hidden rounded-full object-cover "
+          />
+          <div className="flex-1">
+            <h6 className="font-semibold text py-2">
+              SUPPLY QUALITY CONTROL (SQC)
+            </h6>
+            <p>
+              our Supply Quality Control (SQC) division handles the offline part
+              of the business (product sourcing, aggregating, quality control
+              and logistics)
+            </p>
+          </div>
+        </div>
+        <div className="flex gap-3">
+          <img
+            src="/assets/images/IMG-20240413-WA0005.jpg"
+            alt=""
+            className="w-44 h-44 max-sm:hidden rounded-full object-cover"
+          />
+          <div className="flex-1">
+            <h6 className="font-semibold text py-2">DETA AGRIHEALTH</h6>
+            <p>
+              DETA AgriHealth is dedicated to the well-being and empowerment of
+              producers, aggregators, through training and subsidized healthcare
+              service.
+            </p>
+          </div>
+        </div>
+        <div className="flex gap-3">
+          <img
+            src="/assets/images/IMG-20240413-WA0008.jpg"
+            alt=""
+            className="w-44 h-44 max-sm:hidden rounded-full object-cover"
+          />
+          <div className="flex-1">
+            <h6 className="font-semibold text py-2">DETA-WIAB</h6>
+            <p>
+              The Women Inclusivity in Agribusiness (WIAB) division focuses on
+              poverty alleviation and job creation for women by empowering them
+              with agro-processing training.
+            </p>
+          </div>
+        </div>
+        <div className="flex gap-3">
+          <img
+            src="/assets/images/market.webp"
+            alt=""
+            className="w-44 h-44 max-sm:hidden rounded-full object-contain"
+          />
+          <div className="flex-1">
+            <h6 className="font-semibold text py-2">ONLINE MARKETPLACE</h6>
+            <p className="text-sm">
+              Our online marketplace connects global buyers with African
+              producers, bridging trust gaps and fostering sustainable economic
+              growth. It empowers African talents, boosts production to meet
+              demand, and ensures a reliable platform for quality products and
+              services across Africa, promoting long-term trust and
+              collaboration.
+            </p>
+          </div>
+        </div>
+      </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
         {services.map((service, index) => (
           <div

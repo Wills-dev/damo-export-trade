@@ -6,18 +6,20 @@ const products = [
     name: "Dried Chili",
     imageUrl: "/assets/images/red-chili-4928393_1280.jpg",
   },
-  { name: "Corn", imageUrl: "/assets/images/maize (2).jpg" },
+
   {
     name: "Raw Cashew Nuts",
     imageUrl: "/assets/images/cashew-52064_1280.jpg",
   },
-  { name: "Soya", imageUrl: "/assets/images/soybeans-2039642_1280.jpg" },
   { name: "Paddy Rice", imageUrl: "/assets/images/paddy rice (2).jpg" },
+  { name: "Soya", imageUrl: "/assets/images/soybeans-2039642_1280.jpg" },
+
   {
     name: "Sesame Seeds",
     imageUrl: "/assets/images/sesame-1155935_1280.jpg",
   },
   { name: "Ginger", imageUrl: "/assets/images/ginger-3444086_1280.jpg" },
+  { name: "Corn", imageUrl: "/assets/images/maize (2).jpg" },
   {
     name: "Sheanut",
     imageUrl: "/assets/images/hazelnuts-73939_1280.jpg",
