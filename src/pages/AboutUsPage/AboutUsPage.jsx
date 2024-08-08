@@ -116,7 +116,7 @@ const AboutUsPage = () => {
               </div>
             </div>
             <div className="flex gap-4 justify-between flex-wrap py-16 max-sm:justify-center">
-              <div className="w-[150px]">
+              {/* <div className="w-[150px]">
                 <img
                   src="/assets/images/empty-user.webp"
                   alt=""
@@ -124,7 +124,7 @@ const AboutUsPage = () => {
                 />
                 <h6 className="pt-2 text-sm">Victor Ejiogu</h6>
                 <p className="font-bold text-sm">Tech Lead</p>
-              </div>
+              </div> */}
               <div className="w-[150px]">
                 <img
                   src="/assets/images/joseph.png"
@@ -134,7 +134,7 @@ const AboutUsPage = () => {
                 <h6 className="pt-2 text-sm">Joseph Mathias</h6>
                 <p className="font-bold text-sm">Procurement Manager</p>
               </div>
-              <div className="w-[150px]">
+              {/* <div className="w-[150px]">
                 <img
                   src="/assets/images/empty-user.webp"
                   alt=""
@@ -142,10 +142,10 @@ const AboutUsPage = () => {
                 />
                 <h6 className="pt-2 text-sm">Mildred Jaja</h6>
                 <p className="font-bold text-sm">Legal</p>
-              </div>
+              </div> */}
               <div className="w-[150px]">
                 <img
-                  src="/assets/images/empty-user.webp"
+                  src="/assets/images/chinedu.png"
                   alt=""
                   className="w-full h-[150px] object-cover"
                 />
