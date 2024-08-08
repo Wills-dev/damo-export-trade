@@ -36,7 +36,7 @@ const Nav = () => {
   };
 
   return (
-    <div className="relative w-full sm:pt-4  pt-2 top-0 right-0 left-0 z-10 backdrop-blur">
+    <div className="relative w-full sm:pt-4  pt-3 top-0 right-0 left-0 z-10 backdrop-blur">
       <div className="bg-white sm:mx-6 px-4 sm:py-4 py-3  rounded-lg flex items-center justify-between shadow-md relative">
         <h1 className="font-semibold">
           <Link to="/">
@@ -44,11 +44,14 @@ const Nav = () => {
             <img
               src="/assets/images/logoo.png"
               alt=""
-              className="sm:w-32 w-16"
+              className="sm:w-32 w-24"
             />
           </Link>
         </h1>
-        <div className="flex items-center gap-2 uppercase text-sm">
+        <div
+          className="flex items-center gap-2 uppercase "
+          onClick={toggleMenu}
+        >
           <p>Menu</p>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -56,8 +59,7 @@ const Nav = () => {
             viewBox="0 0 24 24"
             strokeWidth={1.5}
             stroke="currentColor"
-            className="sm:w-6 sm:h-6 h-4 w-4 cursor-pointer"
-            onClick={toggleMenu}
+            className="sm:w-6 sm:h-6 h-5 w-5 cursor-pointer"
           >
             <path
               strokeLinecap="round"
@@ -73,7 +75,7 @@ const Nav = () => {
               initial="hidden"
               animate="show"
               exit="hidden"
-              className="absolute sm:h-16 h-10 w-full sm:top-20 top-12 left-0 bg-white rounded-lg shadow-md"
+              className="absolute sm:h-16 h-12 w-full sm:top-20 top-12 left-0 bg-white rounded-lg shadow-md"
             >
               <div className="flex md:justify-end justify-between md:gap-6 gap-4 items-center h-full md:px-6 px-2 overflow-x-auto max-w-full w-full max-sm:text-sm">
                 {navLinks.map((links, index) => (
