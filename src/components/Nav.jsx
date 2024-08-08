@@ -75,7 +75,7 @@ const Nav = () => {
               initial="hidden"
               animate="show"
               exit="hidden"
-              className="absolute sm:h-16 h-12 w-full sm:top-20 top-12 left-0 bg-white rounded-lg shadow-md"
+              className="absolute sm:h-16 h-12 w-full sm:top-20 top-16 left-0 bg-white rounded-lg shadow-md"
             >
               <div className="flex md:justify-end justify-between md:gap-6 gap-4 items-center h-full md:px-6 px-2 overflow-x-auto max-w-full w-full max-sm:text-sm">
                 {navLinks.map((links, index) => (
