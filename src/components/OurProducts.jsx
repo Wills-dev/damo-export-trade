@@ -19,7 +19,7 @@ const products = [
     imageUrl: "/assets/images/sesame-1155935_1280.jpg",
   },
   { name: "Ginger", imageUrl: "/assets/images/ginger-3444086_1280.jpg" },
-  { name: "Corn", imageUrl: "/assets/images/maize (2).jpg" },
+  { name: "Maize", imageUrl: "/assets/images/maize (2).jpg" },
   {
     name: "Sheanut",
     imageUrl: "/assets/images/hazelnuts-73939_1280.jpg",

@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 import Nav from "../../components/Nav";
+import LowerFooter from "../../components/LowerFooter";
 
 const WhatWeDo = () => {
   const services = [
@@ -43,101 +44,113 @@ const WhatWeDo = () => {
     },
   ];
   return (
-    <div className="container mx-auto padding space-y-12 relative ">
-      <Nav />
-      <div className="pt-8" />
-      <motion.div
-        className="text-center py-16 bg-green-50 w-full "
-        initial={{ opacity: 0, y: 50 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
-      >
-        <h1 className="text-3xl font-bold mb-6 text-gray-800">Our Services</h1>
-      </motion.div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-        <div className="flex gap-3">
-          <img
-            src="/assets/images/WhatsApp Image 2024-04-13 at 08.53.28_48f5362d.jpg"
-            alt=""
-            className="w-44 h-44 max-sm:hidden rounded-full object-cover "
-          />
-          <div className="flex-1">
-            <h6 className="font-semibold text py-2">
-              SUPPLY QUALITY CONTROL (SQC)
-            </h6>
-            <p>
-              our Supply Quality Control (SQC) division handles the offline part
-              of the business (product sourcing, aggregating, quality control
-              and logistics)
-            </p>
-          </div>
-        </div>
-        <div className="flex gap-3">
-          <img
-            src="/assets/images/IMG-20240413-WA0005.jpg"
-            alt=""
-            className="w-44 h-44 max-sm:hidden rounded-full object-cover"
-          />
-          <div className="flex-1">
-            <h6 className="font-semibold text py-2">DETA AGRIHEALTH</h6>
-            <p>
-              DETA AgriHealth is dedicated to the well-being and empowerment of
-              producers, aggregators, through training and subsidized healthcare
-              service.
-            </p>
-          </div>
-        </div>
-        <div className="flex gap-3">
-          <img
-            src="/assets/images/IMG-20240413-WA0008.jpg"
-            alt=""
-            className="w-44 h-44 max-sm:hidden rounded-full object-cover"
-          />
-          <div className="flex-1">
-            <h6 className="font-semibold text py-2">DETA-WIAB</h6>
-            <p>
-              The Women Inclusivity in Agribusiness (WIAB) division focuses on
-              poverty alleviation and job creation for women by empowering them
-              with agro-processing training.
-            </p>
-          </div>
-        </div>
-        <div className="flex gap-3">
-          <img
-            src="/assets/images/market.webp"
-            alt=""
-            className="w-44 h-44 max-sm:hidden rounded-full object-contain"
-          />
-          <div className="flex-1">
-            <h6 className="font-semibold text py-2">ONLINE MARKETPLACE</h6>
-            <p className="text-sm">
-              Our online marketplace connects global buyers with African
-              producers, bridging trust gaps and fostering sustainable economic
-              growth. It empowers African talents, boosts production to meet
-              demand, and ensures a reliable platform for quality products and
-              services across Africa, promoting long-term trust and
-              collaboration.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-        {services.map((service, index) => (
-          <div
-            key={index}
-            className="bg-white p-8 rounded-lg shadow hover:shadow-lg transition-shadow duration-300"
+    <>
+      <div className="relative ">
+        <Nav />
+        <div className="container mx-auto padding ">
+          <div className="pt-8" />
+          <motion.div
+            className="text-center py-16 bg-green-50 w-full "
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
           >
-            <h2 className="text-2xl font-semibold mb-4 text-gray-800">
-              {service.title}
-            </h2>
-            <h3 className="text-lg font-medium mb-2 text-gray-600">
-              {service.caption}
-            </h3>
-            <p className="text-gray-700">{service.description}</p>
+            <h1 className="text-3xl font-bold mb-6 text-gray-800">
+              Our Services
+            </h1>
+          </motion.div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 pt-16">
+            <div className="flex gap-3">
+              <img
+                src="/assets/images/WhatsApp Image 2024-04-13 at 08.53.28_48f5362d.jpg"
+                alt=""
+                className="w-44 h-44 max-sm:hidden rounded-full object-cover "
+              />
+              <div className="flex-1">
+                <h6 className="font-semibold text py-2">
+                  SUPPLY QUALITY CONTROL (SQC)
+                </h6>
+                <p>
+                  our Supply Quality Control (SQC) division handles the offline
+                  part of the business (product sourcing, aggregating, quality
+                  control and logistics)
+                </p>
+              </div>
+            </div>
+            <div className="flex gap-3">
+              <img
+                src="/assets/images/IMG-20240413-WA0005.jpg"
+                alt=""
+                className="w-44 h-44 max-sm:hidden rounded-full object-cover"
+              />
+              <div className="flex-1">
+                <h6 className="font-semibold text py-2">DETA AGRIHEALTH</h6>
+                <p>
+                  DETA AgriHealth is dedicated to the well-being and empowerment
+                  of producers, aggregators, through training and subsidized
+                  healthcare service.
+                </p>
+              </div>
+            </div>
+            <div className="flex gap-3">
+              <img
+                src="/assets/images/IMG-20240413-WA0008.jpg"
+                alt=""
+                className="w-44 h-44 max-sm:hidden rounded-full object-cover"
+              />
+              <div className="flex-1">
+                <h6 className="font-semibold text py-2">DETA-WIAB</h6>
+                <p>
+                  The Women Inclusivity in Agribusiness (WIAB) division focuses
+                  on poverty alleviation and job creation for women by
+                  empowering them with agro-processing training.
+                </p>
+              </div>
+            </div>
+            <div className="flex gap-3">
+              <img
+                src="/assets/images/market.webp"
+                alt=""
+                className="w-44 h-44 max-sm:hidden rounded-full object-contain"
+              />
+              <div className="flex-1">
+                <h6 className="font-semibold text py-2">ONLINE MARKETPLACE</h6>
+                <p className="text-sm">
+                  Our online marketplace connects global buyers with African
+                  producers, bridging trust gaps and fostering sustainable
+                  economic growth. It empowers African talents, boosts
+                  production to meet demand, and ensures a reliable platform for
+                  quality products and services across Africa, promoting
+                  long-term trust and collaboration.
+                </p>
+              </div>
+            </div>
           </div>
-        ))}
+          <h6 className="text-primary-color  font-medium text-xl text-center pt-16">
+            OUR IMPACT
+          </h6>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+            {services.map((service, index) => (
+              <div
+                key={index}
+                className="bg-white p-8 rounded-lg shadow-sm hover:shadow transition-shadow duration-300"
+              >
+                <h2 className="sm:text-xl text-lg font-semibold mb-4 text-gray-800">
+                  {service.title}
+                </h2>
+                <h3 className="sm:text-lg font-medium mb-2 text-gray-600">
+                  {service.caption}
+                </h3>
+                <p className="text-gray-700 max-sm:text-sm">
+                  {service.description}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
-    </div>
+      <LowerFooter />
+    </>
   );
 };
 
