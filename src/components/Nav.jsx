@@ -36,7 +36,7 @@ const Nav = () => {
   };
 
   return (
-    <div className="fixed w-full sm:pt-4  pt-2 top-0 right-0 left-0 z-10 backdrop-blur">
+    <div className="relative w-full sm:pt-4  pt-2 top-0 right-0 left-0 z-10 backdrop-blur">
       <div className="bg-white sm:mx-6 px-4 sm:py-4 py-3  rounded-lg flex items-center justify-between shadow-md relative">
         <h1 className="font-semibold">
           <Link to="/">
