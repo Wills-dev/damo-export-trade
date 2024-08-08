@@ -39,7 +39,7 @@ const OurObjectives = () => {
             initiatives and robust support systems.
           </p>
         </div>
-        <div className="max-w-[46%]  max-sm:max-w-full max-sm:flex max-sm:items-center flex-col">
+        {/* <div className="max-w-[46%]  max-sm:max-w-full max-sm:flex max-sm:items-center flex-col">
           <img
             src="/assets/icons/announcement-icon.svg"
             alt="icon"
@@ -52,7 +52,7 @@ const OurObjectives = () => {
             We promote sustainable and innovative agricultural practices to
             enhance productivity and environmental health.
           </p>
-        </div>
+        </div> */}
         <div className="max-w-[46%]  max-sm:max-w-full max-sm:flex max-sm:items-center flex-col">
           <img
             src="/assets/icons/trade-icon.svg"
